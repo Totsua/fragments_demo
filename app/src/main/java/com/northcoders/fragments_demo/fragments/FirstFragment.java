@@ -1,4 +1,4 @@
-package com.northcoders.fragments_demo;
+package com.northcoders.fragments_demo.fragments;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.northcoders.fragments_demo.R;
 
 
 public class FirstFragment extends Fragment {
