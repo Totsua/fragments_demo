@@ -8,6 +8,15 @@
     tools:context=".MainActivity">
 
 
+    <FrameLayout
+        android:id="@+id/frameLayoutFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/BottomNavView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/BottomNavView"
         app:menu="@menu/navigation_bar_menu"
